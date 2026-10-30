@@ -1,0 +1,20 @@
+:root {
+  font-size: 18px;
+  line-height: 1.45;
+  letter-spacing: 0.18px;
+  color-scheme: light;
+}
+
+#root {
+  min-height: 100svh;
+}
+
+p {
+  margin: 0;
+}
+
+@media (max-width: 1024px) {
+  :root {
+    font-size: 16px;
+  }
+}

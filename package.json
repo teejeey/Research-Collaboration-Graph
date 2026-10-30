@@ -1,0 +1,22 @@
+{
+  "name": "research-collaboration-graph",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Explore PubMed papers as an interactive author collaboration network.",
+  "engines": {
+    "node": ">=22.12.0"
+  },
+  "scripts": {
+    "backend": "npm --prefix backend run dev",
+    "dev": "npm --prefix frontend run dev",
+    "start": "npm --prefix backend start",
+    "build": "npm --prefix frontend run build",
+    "lint": "npm --prefix frontend run lint",
+    "test": "npm --prefix backend test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teejeey/Research-Collaboration-Graph.git"
+  },
+  "license": "ISC"
+}
